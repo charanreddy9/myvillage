@@ -1,0 +1,272 @@
+body{
+	margin:0;
+	padding:0;
+	background:url("images/vil-back.jpg") !important;
+}
+p{
+font-family:GILL SANS;
+}
+header img{
+	padding:0px;
+	margin:0 auto;
+	padding-bottom:2px;
+}
+header{
+	background-color:white;
+	color:#22b04c;
+	margin:0 auto;
+	padding:10px 0;
+}
+.weather{ 
+	 height:30%;
+	overflow:hidden;
+	
+}
+.aw-widget-content{
+	
+
+}
+
+marquee{
+	background-color:whitesmoke;
+	color:#119a51;
+	margin:0 auto;
+}
+.menu{
+
+	background-color:orange;
+	list-style:none; 
+	width:100%; 
+	font-size:16px; 
+	
+}
+.menu ul{
+	margin:0 auto;
+	list-style:none; 
+}
+.menu li{
+	float:left;  
+	cursor: pointer;
+	margin:0 auto;
+	position:relative;
+}
+.menu li a{
+	padding:10px;
+	display:block;
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+	border-right:1px solid whitesmoke;
+}
+.menu li a:hover{
+	background-color:#FFC500;
+	color:white; 
+}
+.menu > ul > li > a:hover{   
+	text-decoration:none;
+}
+.menu > ul > li:hover .sub-menu{   
+	display:block !important;
+	background-color:orange;
+	padding:0 !important;
+}
+.sub-menu{
+	margin:0;
+	display:none;
+	background-color:orange;
+	color:white; 
+	position:absolute;
+	z-index:999;
+	text-align:center;
+	padding:0!important;
+	font-size:14px;
+}
+.sub-menu li{
+	width:100%;
+}
+.row {
+    padding-top:30px;
+}
+
+.item img{
+	
+	height:100% !important;
+	width:100% !important;
+	
+}
+
+
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+	  
+      margin:0 auto;
+	  height:400px;
+  }
+.hero-part{
+	background-color:white;
+	margin:o auto;
+	color:black;
+	
+ }
+
+ 
+ .box{
+	 
+	 color:black;
+	 
+ }
+ .box p{
+	 padding:50px;
+	 font-family:italic;
+	 
+ }
+ .box table {
+	 margin-left:150px;
+	 padding:90px;
+	 
+ }
+ .box p{
+font-family:
+	 
+	 
+	 
+ }
+ 
+ .table-bordered{
+	 border:1px solid orange;
+	 
+	 
+ }
+.about{
+	height:70px;
+	width:60%;
+	background-color:orange;
+	color:white;
+}
+
+.about h2 {
+	 color:white;
+ }
+ .hero-part h2 a:hover{
+	 text-decoration:none;
+ }
+ .hero-part h2{
+	 font-family: bold;
+	 text-decoration:none;
+	 padding:20px 0px 0px 400px;
+ }
+
+.hero-box {
+	background-color:white;
+	border:1px solid shadow;
+	font-family:vardana;
+	color:green;
+	font-size:18px;
+}
+.hero-box h2{
+	color:white;
+	background-color:orange;
+	margin-top:20px;
+}
+.agri img{
+	height:287px;
+	width:335px;
+
+}
+.agri h3{
+	padding-left:50px;
+	text-align:center;
+	
+}
+.agri h4{
+	color:black;
+	text-align:center;
+	
+	
+}
+.agri{
+	margin-top:20px;
+	color:green;
+}
+.agri-table {
+	padding:10px 0px 0px 200px;
+	
+}
+
+.agri h4{
+	
+	line-height:4px;
+	color:black;
+	
+}
+.pop-hero{
+	background-color:white;
+	padding:20px 60px;
+}
+.pop-hero p{
+	padding:25px;	
+}
+.table{
+	margin-left:30px;
+	width:70%; 
+	height:100%;
+}
+.head h1{
+	background-color:orange;
+	color:white;
+	font-family:"Roboto Condensed";
+	text-align:center;
+	width:40%;
+	border-radius:10px solid white;
+	font-weight:bold;
+}
+@media only screen and (max-width: 768px) {
+	.head h1{
+		width:100%;
+	}
+}
+@media only screen and (min-width: 763px) {
+	width:100%;
+}
+
+.gandhi{
+	padding-top:50px;
+	margin-left:270px;
+}
+.table-bordered {
+	margin:20px 0px 0px 0px;
+	height:100%;
+	width:70%;
+	
+}
+.pop-hero h3{
+	padding-left:40px;
+	color:red;
+	font-family:Cooper Std Black
+}
+
+.table-bordered th{
+	
+	padding-left:10px;
+}
+
+.table-bordered td{
+	padding-left:10px;
+	
+	
+}	
+	
+	
+
+.footer{
+	background-color:orange;
+	color:white;
+	margin:0 auto;
+	padding:0 auto;
+}
+footer p{
+	padding-left:30px;
+}
+	
